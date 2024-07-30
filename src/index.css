@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Passion+One:wght@400;700;900&family=Pathway+Gothic+One&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  background-color: white;
+}
+
+@layer components {
+  .navbar-text {
+    @apply hidden tablet:flex hover:cursor-pointer items-center justify-around text-black font-bold text-2xl font-body not-italic;
+
+  };
+
+  .navbar-button {
+    @apply hidden tablet:inline-block tablet:bg-amber-500 hover:bg-amber-700 text-white font-bold py-2 px-4 rounded ease-in-out duration-300;
+  };
+
+  .button {
+    @apply hidden tablet:inline-block tablet:bg-amber-500 hover:bg-amber-700 text-white font-bold py-2 px-4 rounded ease-in-out duration-300;
+  };
+
+  .navbar-logo {
+    @apply w-1/2 h-24 hover:cursor-pointer tablet:w-1/4
+  };
+
+  .Phone-DropDown {
+    @apply block tablet:hidden;
+  };
+
+  .Card {
+    @apply text-black flex flex-col justify-center rounded px-24 w-auto h-auto bg-gradient-to-r from-slate-400  via-slate-300 to-slate-400 
+    
+  };
+}
