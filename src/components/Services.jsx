@@ -8,7 +8,8 @@ function Services() {
 
 
   return (
-    <div className=' flex justify-around align-center w-auto h-1/2 bg-slate-400 my-5 py-2 px-11 mx-11 rounded-3xl '>
+
+    <div className=' flex justify-around align-center w-auto h-1/2 bg-slate-400 my-5 py-11 px-11 mx-11 rounded-3xl '>
       <div className='Card'> 
         <img src={dv} class="aspect-auto" />
         <div className='text-center text-3xl'> MOVING </div>
